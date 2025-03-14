@@ -1,0 +1,10 @@
+.tariff {
+    margin-top: 132px;
+}
+
+.tariff-title{
+    font-size: 2rem; /* 32px */
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+}

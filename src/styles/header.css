@@ -1,0 +1,81 @@
+/* Reset styles and global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Global page styles */
+html, body {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(to bottom, #29404A, #1E292F) fixed;
+    width: 1240px;
+}
+
+/* Header layout */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1240px;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    flex-shrink: 0;
+    padding-top: 15px; /* Padding to adjust positioning */
+}
+
+/* Navigation container */
+.nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+/* Unordered list for nav items */
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* List item styles */
+li {
+    list-style: none;
+    margin-right: 53px; /* Space between items */
+}
+
+/* Navigation link styles */
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 22px; /* Adjust top padding for vertical alignment */
+}
+
+/* Button style */
+.nav-btn {
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    color: #253941;
+    width: 122px;
+    height: 34px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom, #81BDFF, #5ED9FF) fixed;
+
+    display: flex; /* Make it a flex container */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+}

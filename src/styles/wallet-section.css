@@ -1,0 +1,95 @@
+/* Flexbox Settings for Wallet */
+.wallet {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Main Title Styling */
+.main-title {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+    display: block;
+    width: 605px;
+    height: 141px;
+    margin-top: 83px;
+    margin-bottom: 16px;
+}
+
+/* Main Title Description Styling */
+.main-title-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFFE5;
+    width: 567px;
+    height: 78px;
+}
+
+/* Buttons Container Styling */
+.buttons {
+    display: flex;
+    margin-top: 42px;
+}
+
+/* Button Styling */
+.btn-primary, .btn-secondary {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 20px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Specific Styling for Primary Button */
+.btn-primary {
+    color: #253941;
+    width: 152px;
+    margin-right: 26px;
+    background: linear-gradient(to bottom, #81BDFF, #5ED9FF) fixed;
+}
+
+/* Specific Styling for Secondary Button */
+.btn-secondary {
+    color: transparent;
+    width: 152px;
+    background: linear-gradient(to right, #81BDFF, #5ED9FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    border: 1px solid #81BDFF;
+}
+
+/* Crypto Wallet Styling */
+.crypto-wallet {
+    align-self: flex-end;
+    width: 628px;
+    height: 354px;
+    position: relative;
+}
+
+.wallet-img {
+    position: absolute;
+    z-index: 2;
+}
+
+.blue-ellipse {
+    position: absolute; /* Position the ellipse image behind the wallet image */
+    top: 50%; /* Vertically center the ellipse */
+    left: 45%; /* Horizontally center the ellipse */
+    transform: translate(-50%, -50%); /* Adjust position to truly center */
+    z-index: 1; /* Place the ellipse behind the crypto wallet image */
+}
+
+.circles {
+    position: absolute; /* Position the ellipse image behind the wallet image */
+    top: 74%; /* Vertically center the ellipse */
+    left: 43%; /* Horizontally center the ellipse */
+    transform: translate(-50%, -50%); /* Adjust position to truly center */
+    z-index: 1; /* Place the ellipse behind the crypto wallet image */
+}
