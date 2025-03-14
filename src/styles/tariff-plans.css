@@ -2,9 +2,170 @@
     margin-top: 132px;
 }
 
+.tariff-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.tariff-block {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*min-height: 100vh;*/
+}
+
 .tariff-title{
     font-size: 2rem; /* 32px */
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
 }
+
+.tariff-block__title {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #52A4FF;
+}
+
+/* Pricing Card */
+.pricing-card {
+    margin-top: 119px;
+    position: relative;
+    background: #FFFFFF;
+    width: 362px;
+    height: 517px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.pricing-card-middle {
+    margin-top: 69px;
+    position: relative;
+    background: #FFFFFF;
+    width: 362px;
+    height: 616px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+/* Floating Gears */
+.gears {
+    position: relative;
+    width: 155px;
+    height: 97px;
+    top: -50px;
+    left: 10px;
+    z-index: 1;
+}
+
+/* Title */
+.pricing-card__title {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #52A4FF;
+    margin-left: 30px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.pricing-card__price span {
+    font-size: 52px;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: italic;
+    color: #223138;
+    margin-left: 30px;
+    padding-top: 55px;
+}
+
+.pricing-card__price small {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #6D8088;
+    margin-top: 55px;
+}
+
+/* Features List */
+.pricing-card__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 240px;
+    height: 139px;
+    margin-left: 30px;
+}
+
+.pricing-card__details-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.pricing-card__details-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    width: 250px;
+    height: 139px;
+}
+
+/* Contact Button */
+.contact-btn {
+    width: 302px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #52A4FF;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    align-self: center;
+}
+
+.pricing-card__subtitle {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+    color: #223138;
+    margin-left: 30px;
+}
+
+.open-source-title {
+    font-size: 16px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #223138;
+    font-style: italic;
+}
+
+.open-source-description {
+    width: 288px;
+    height: 66px;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #223138;
+    margin-left: 10px;
+}
+
+
+
+
+
