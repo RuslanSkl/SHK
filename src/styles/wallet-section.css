@@ -52,7 +52,7 @@
     color: #253941;
     width: 152px;
     margin-right: 26px;
-    background: linear-gradient(to bottom, #81BDFF, #5ED9FF) fixed;
+    background: linear-gradient(to right, #81BDFF, #5ED9FF);
 }
 
 /* Specific Styling for Secondary Button */

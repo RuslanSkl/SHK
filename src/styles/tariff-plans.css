@@ -2,20 +2,6 @@
     margin-top: 132px;
 }
 
-.tariff-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.tariff-block {
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*min-height: 100vh;*/
-}
-
 .tariff-title{
     font-size: 2rem; /* 32px */
     font-weight: 700;
@@ -23,11 +9,11 @@
     text-align: center;
 }
 
-.tariff-block__title {
-    font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #52A4FF;
+.tariff-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 /* Pricing Card */
@@ -57,8 +43,7 @@
     justify-content: space-evenly;
 }
 
-/* Floating Gears */
-.gears {
+.pricing-card__img {
     position: relative;
     width: 155px;
     height: 97px;
@@ -164,8 +149,3 @@
     color: #223138;
     margin-left: 10px;
 }
-
-
-
-
-
